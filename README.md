@@ -14,9 +14,9 @@
 ],
 
 ##### Install Package via composer #####
-<hr/>
 $ composer update
 
 
 #### How to test/use Package ####
+<hr/>
 
