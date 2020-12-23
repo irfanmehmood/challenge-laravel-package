@@ -24,7 +24,7 @@ namespace Streamgo\Reports;
  */
 class ReportType
 {
-    const DAILY = 'Daily';
-    const WEEKLY = 'Weekly';
-    const MONTHLY = 'Monthly';
+    const DAILY = 'DAILY';
+    const WEEKLY = 'WEEKLY';
+    const MONTHLY = 'MONTHLY';
 }

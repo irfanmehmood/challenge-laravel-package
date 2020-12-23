@@ -115,4 +115,15 @@ class ReportBuilder implements ReportBuilderInterface
             $this->throwError("No data is available");
         } 
     }
+
+    /**
+     * Export data to JSOn format
+     * 
+     * @return none
+     */
+    public function throwError(String $sError)
+    {
+        throw new Exception($sError);
+    }
+
 }

@@ -55,4 +55,11 @@ interface ReportBuilderInterface
      */
     public function export();
 
+    /**
+     * To handle error exceptons
+     * 
+     * @return json
+     */
+    public function throwError(String $sError);
+
 }
