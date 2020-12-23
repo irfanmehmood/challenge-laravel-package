@@ -5,6 +5,7 @@ Update composer.json
 "require": {
         "streamgo/reports": "master"
 },
+<br/>
 "repositories": [
         {
             "type": "vcs",
