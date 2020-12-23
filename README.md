@@ -11,7 +11,7 @@
         }
 ],
 ```
-##### Install Package via composer #####
+##### Update composer, which will fetch package from VCS #####
 ```
 $ composer update
 ```
