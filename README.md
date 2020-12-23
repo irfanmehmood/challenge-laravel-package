@@ -12,8 +12,9 @@
 ],
 ```
 ##### Install Package via composer #####
+```
 $ composer update
-
+```
 
 #### How to test/use Package ####
 ```
