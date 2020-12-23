@@ -70,7 +70,7 @@ class ReportBuilder implements ReportBuilderInterface
     {
         // Return data as a collection or array
         if ($this->reportData) {
-            return $getAsCollection $this->reportData : $this->reportData->all();
+            return $getAsCollection ? $this->reportData : $this->reportData->all();
         } else {
             $this->throwError("No data is available");
         }
