@@ -1,6 +1,6 @@
-### How to install ReportBuilder package in your Laravel project 
+### How to install ReportBuilder package in your Laravel project ###
 
-#### Update your composer.json file, adding entries below
+#### Update your composer.json file, adding entries below ####
 <hr/>
 "require": {
         "streamgo/reports": "master"
@@ -13,7 +13,7 @@
         }
 ],
 
-#### Install Package via composer
+#### Install Package via composer ####
 <hr/>
 $ composer update
 
