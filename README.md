@@ -4,7 +4,6 @@
 "require": {
         "streamgo/reports": "master"
 },
-<br/>
 "repositories": [
         {
             "type": "vcs",
@@ -17,6 +16,7 @@ $ composer update
 
 
 #### How to test/use Package ####
+```
 use Streamgo\Reports\ReportBuilder;
 use Streamgo\Reports\DbAdapterEloquent;
 use Streamgo\Reports\DbAdapterMysql;
@@ -37,4 +37,4 @@ Route::get('/mysql-report', function() {
     dd($dailyReport);
     dd($dailyReportJsonExport);
 });
-
+```
