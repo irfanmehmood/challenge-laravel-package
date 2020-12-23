@@ -1,7 +1,31 @@
 <?php
+/**
+ * Report Builder
+ *
+ * PHP version 7
+ * ReportBuilder.php
+ *
+ * @category Reports
+ * @package  Streamgo
+ * @author   Irfan Mehmood <irfmehmood@gmail.com>
+ * @author   Irfan Mehmood <irfmehmood@gmail.com>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     https://github.com/irfanmehmood/testLaravelReports
+ */
+
 namespace Streamgo\Reports;
 use Exception;
 
+/**
+ * Report Builder Class
+ *
+ * @category Reports
+ * @package  Streamgo
+ * @author   Irfan Mehmood <irfmehmood@gmail.com>
+ * @author   Irfan Mehmood <irfmehmood@gmail.com>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     https://github.com/irfanmehmood/testLaravelReports
+ */
 class ReportBuilder implements ReportBuilderInterface
 {
 
@@ -12,8 +36,8 @@ class ReportBuilder implements ReportBuilderInterface
     /**
      * Constructor
      *
-     * @param String $sReportType Report type to generate, daily, weekly
-     * @param DbAbstract $dbAdapter Database adpater to perform query
+     * @param String     $sReportType Report type to generate, daily, weekly
+     * @param DbAbstract $dbAdapter   Swapable Database adpater to perform data query
      * 
      * @return none
      */
