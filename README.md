@@ -16,7 +16,7 @@
 $ composer update
 ```
 
-#### Add routes to your routes/web.php ####
+##### Add routes to your routes/web.php #####
 ```
 use Streamgo\Reports\ReportBuilder;
 use Streamgo\Reports\DbAdapterEloquent;
