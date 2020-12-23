@@ -2,9 +2,9 @@
 
 #### Update your composer.json file, adding entries below
 <hr/>
-`"require": {
-        "streamgo/reports": "master"
-},
+`"require": {`
+`        "streamgo/reports": "master"`
+`},`
 <br/>
 "repositories": [
         {
