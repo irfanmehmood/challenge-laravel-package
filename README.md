@@ -18,5 +18,24 @@ $ composer update
 
 
 #### How to test/use Package ####
-<hr/>
+use Streamgo\Reports\ReportBuilder;
+use Streamgo\Reports\DbAdapterEloquent;
+use Streamgo\Reports\DbAdapterMysql;
+use Streamgo\Reports\ReportType;
+
+Route::get('/eloquent-report', function() {
+    $report = new ReportBuilder(ReportType::DAILY, new DbAdapterEloquent());
+    $dailyReport = $report->build()->get();
+    $dailyReportJsonExport = $report->build()->export();
+    dd($dailyReport);
+    dd($dailyReportJsonExport);
+});
+
+Route::get('/mysql-report', function() {
+    $report = new ReportBuilder(ReportType::Daily, new DbAdapterMysql(config('mysql')));
+    $dailyReport = $report->build()->get();
+    $dailyReportJsonExport = $report->build()->export();
+    dd($dailyReport);
+    dd($dailyReportJsonExport);
+});
 
