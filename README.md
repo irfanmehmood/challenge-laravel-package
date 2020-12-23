@@ -2,9 +2,9 @@
 
 #### Update your composer.json file, adding entries below
 <hr/>
-`"require": {`
-`        "streamgo/reports": "master"`
-`},`
+"require": {
+        "streamgo/reports": "master"
+},
 <br/>
 "repositories": [
         {
@@ -12,7 +12,7 @@
             "url": "https://github.com/irfanmehmood/testLaravelReports.git"
         }
 ],
-` 
+
 #### Install Package via composer
 <hr/>
 $ composer update
