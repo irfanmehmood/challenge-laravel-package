@@ -1,17 +1,19 @@
-# How to install and run package in your Laravel project 
+# How to install ReportBuilder package in your Laravel project 
 
-Update composer.json
+Update your composer.json file
 ========================================================================
 "require": {
-        "streamgo/reports": "master"
-},
 <br/>
-"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/irfanmehmood/testLaravelReports.git"
-        }
-],
+        "streamgo/reports": "master"
+<br/>
+},
+<hr/>
+"repositories": [<br/>
+   <br/>     {
+   <br/>         "type": "vcs",
+   <br/>         "url": "https://github.com/irfanmehmood/testLaravelReports.git"
+   <br/>     }
+<br/>],
 
 Install Package via composer
 ========================================================================
