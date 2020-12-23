@@ -3,21 +3,18 @@
 Update your composer.json file
 ========================================================================
 "require": {
-<br/>
         "streamgo/reports": "master"
-<br/>
 },
-<hr/>
-"repositories": [<br/>
-   <br/>     {
-   <br/>         "type": "vcs",
-   <br/>         "url": "https://github.com/irfanmehmood/testLaravelReports.git"
-   <br/>     }
-<br/>],
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/irfanmehmood/testLaravelReports.git"
+        }
+],
 
 Install Package via composer
 ========================================================================
-$> composer update
+$ composer update
 
 
 
