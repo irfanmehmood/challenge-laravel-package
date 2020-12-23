@@ -1,0 +1,19 @@
+{
+    "name": "streamgo/repots",
+    "description": "StreamGo  - Reporting package to provide reporting functionality.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfan Mehmood",
+            "email": "irfmehmood@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Streamgo\\Reports\\": "src/"
+        }
+    },
+    "require": {}
+}
