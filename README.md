@@ -1,5 +1,4 @@
 #### How to install ReportBuilder package in your Laravel project ####
-<br/>
 ##### Update your composer.json file by adding the entries below #####
 
 "require": {
